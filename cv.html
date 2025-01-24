@@ -64,21 +64,36 @@
         .education li, .courses li {
             margin-bottom: 10px;
         }
+
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .photo img {
+            width: 150px;
+            height: 150px;
+            border-radius: 20%;
+            object-fit: cover;
+            border: 2px solid #0056b3;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Resume</h1>
-        <h2>Oleg Olegovich Prizov</h2>
-        <p><strong>Age:</strong> 22 | <strong>Date of Birth:</strong> May 1, 2002</p>
+        <div class="photo">
+            <img src="photo.jpeg" alt="Photo of Oleg Prizov">
+        </div>
+        <h2>Призов Олег Олегович</h2>
+        <p><strong>Возраст:</strong> 22 | <strong>Дата рождения:</strong> May 1, 2002</p>
         <div class="section contact-info">
-            <div>📞 +7 (920) 8494623</div>
-            <div>📧 prizovoleg@yandex.ru</div>
-            <div>📱 @olegprizovvv</div>
-            <div>📍 Odintsovo, Moscow Region</div>
+            <div>Номер телефона: +7 (920) 849 46 23</div>
+            <div>Почта для связи: prizovoleg@yandex.ru</div>
+            <div>Ник в телеграме: @olegprizovvv</div>
+            <div>Место проживания: Брянск, Россия</div>
         </div>
 
-        <h3>Desired Position</h3>
+        <h3>Позиция</h3>
         <p>Python Backend Developer</p>
 
         <h3>Experience</h3>
@@ -109,32 +124,41 @@
             </ul>
         </div>
 
-        <h3>Education</h3>
+        <h3>Образование</h3>
         <ul class="education">
-            <li><strong>Master's Program in Software Engineering</strong> | National Research Nuclear University MEPhI, Moscow | 2026</li>
+            <li><strong>Программная инженерия (магистратура)</strong> | НИЯУ МИФИ, Москва | 2026</li>
         </ul>
 
-        <h3>Courses</h3>
+        <h3>Курсы</h3>
         <ul class="courses">
             <li><strong>Python Developer</strong> | Yandex EdTech | 2024</li>
         </ul>
 
-        <h3>Skills</h3>
+        <h3>Стэк технологий</h3>
         <div class="skills">
             <span>Python</span>
             <span>Django</span>
+            <span>FastAPI</span>
             <span>REST API</span>
+            <span>Parsing</span>
             <span>Docker</span>
             <span>PostgreSQL</span>
             <span>Git</span>
-            <span>CI/CD</span>
+            <span>GitHub</span>
+            <span>GitLab</span>
+            <span>Linux</span>
+            <span>SQL</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Java</span>
+            <span>Agile</span>
         </div>
 
-        <h3>Languages</h3>
-        <p><strong>Russian:</strong> Native | <strong>English:</strong> B2</p>
+        <h3>Языки</h3>
+        <p><strong>Русский:</strong> Родной | <strong>Английский:</strong> B2</p>
 
         <h3>About Me</h3>
-        <p>Master's student in Software Engineering with experience in backend development. Actively seeking opportunities in Python development.</p>
+        <p>Junior разработчик, студент НИЯУ МИФИ с опытом разработки веб-сервисов, парсеров, телеграм-ботов. Активно ищу возможности в разработке на Python.</p>
     </div>
 </body>
 </html>
